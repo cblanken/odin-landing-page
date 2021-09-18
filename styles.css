@@ -46,11 +46,12 @@ html, body {
   font-family: arial, sans-serif;
   font-size: 18px;
   box-sizing: border-box;
-} body {
+} 
+
+body {
   display: flex;
   flex-direction: column;
 }
-
 
 body a {
   text-decoration: none;
@@ -72,7 +73,9 @@ p {
 }
 
 #header-logo {
-  font: bold 24px arial, sans-serif;
+  height: 64px;
+  width: 64px;
+  border-radius: 50%;
 }
 
 .header {
@@ -142,6 +145,7 @@ p {
 
 .blue-button:hover {
   color: var(--light1-fg-color);
+  border-color: white;
 }
 
 .main-content {
@@ -175,8 +179,7 @@ p {
 }
 
 .quotes {
-  margin-top: 50px;
-}
+  margin-top: 50px; }
 
 .quotes blockquote {
   margin: 50px auto;
@@ -215,8 +218,7 @@ p {
 
 .call-to-action button {
   margin: 0 32px;
-  border: 2px solid white;
-  /*border-radius: 10px;*/
+  border: 2px solid var(--light2-fg-color);
 }
 
 footer {
